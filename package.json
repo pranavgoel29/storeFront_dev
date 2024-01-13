@@ -3,22 +3,38 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build:css": "tailwindcss build src/app/globals.css -o public/styles.css",
+    "watch:css": "tailwindcss build src/app/globals.css -o public/styles.css --watch",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@types/styled-components": "^5.1.34",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-select": "^5.8.0",
+    "styled-components": "^6.1.6",
+    "tailwind-merge": "^2.2.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.16",
+    "css-loader": "^6.9.0",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8.4.33",
+    "postcss-loader": "^7.3.4",
+    "style-loader": "^3.3.4",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
