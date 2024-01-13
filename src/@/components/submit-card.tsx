@@ -16,7 +16,7 @@ import { Button } from "@/components/ui/button";
 
 export function SubmitCard() {
   return (
-    <Card className="mx-auto max-w-md p-6 bg-white rounded-xl shadow-md space-y-6 dark:bg-gray-800">
+    <Card className="mx-auto max-w-md p-6 bg-white rounded-xl shadow-md space-y-6">
       <CardHeader>
         <CardTitle className="text-2xl font-bold text-gray-900 dark:text-white">
           Contact Us

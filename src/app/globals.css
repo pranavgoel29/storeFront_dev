@@ -2,6 +2,42 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+h1 {
+  @apply text-4xl;
+  @apply font-bold;
+}
+
+h2 {
+  @apply text-3xl;
+  @apply font-bold;
+}
+
+h3 {
+  @apply text-2xl;
+  @apply font-bold;
+}
+
+h4 {
+  @apply text-xl;
+  @apply font-semibold;
+}
+
+h5 {
+  @apply text-lg;
+  @apply font-semibold;
+}
+
+h6 {
+  @apply text-sm;
+  @apply font-semibold;
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
